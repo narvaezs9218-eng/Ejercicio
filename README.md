@@ -80,3 +80,36 @@ class MyClass
     }
 }
 
+//------------------------------------------------------------------------------------------
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string firstName = "John ";
+string lastName = "Doe";
+string fullName = firstName + lastName;
+Console.WriteLine(fullName);
+
+    }
+}
+
+//------------------------------------------------------------------------------------------
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       int x, y, z;
+       x = y = z = 50;
+       Console.WriteLine(x + y + z);
+
+    }
+}
+
+//---------------------------------------------------------------------------------------------------
+
